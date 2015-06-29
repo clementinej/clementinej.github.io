@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Clementine Jacoby - Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body class="right-sidebar">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header">
+
+            <!-- Inner -->
+            <div class="inner">
+                <header>
+                    <h1><a href="index.html" id="logo">Clementine Jacoby</a></h1>
+                </header>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="computers.html">Computer Science</a></li>
+                <li><a href="writing.html">Writing</a></li>
+                <li><a href="art.html">Art</a></li>
+                                <li><a href="new_map.html">Map</a></li>
+                                <li><a href="circus.html">Circus</a></li>
+              </ul>
+            </nav>
+
+        </div>
+
+        <!-- Main -->
+        <div class="wrapper style1">
+
+            <div class="container">
+                <article id="main" class="special">
+                    <header>
+                        <h2>Places I've been.</h2>
+                        
+                          <p style="font-size:20px"> Places I've been are rendered in blue (cyan, really). Places that I want to go to so badly that I've basically been are rendered in grean (teal, really). <br>This graph was made using d3.js and topoJSON.</p>
+                    </header>
+                  
+
+                    <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <!-- I recommend you host this file on your own, since this will change without warning -->
+  <script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
+  <div id="container1" style="position: relative; width: 100%; max-height: 650px;"></div>
+ 
+     
+     <script>
+       //basic map config with custom fills, mercator projection
+      var map = new Datamap({
+        scope: 'world',
+        element: document.getElementById('container1'),
+        projection: 'mercator',
+        height: 800,
+        fills: {
+          defaultFill: 'rgba(255,185,60,0.9)',
+          lt50: 'rgba(64,240,255,0.9)',
+          gt50: 'rgba(255,143,0,0.9)',
+          rt50: 'rgba(20,204,168,0.9)'
+        },
+        
+        data: {
+          USA: {fillKey: 'lt50' },
+          CAN: {fillKey: 'lt50' },
+          BRA: {fillKey: 'lt50' },
+          ARG: {fillKey: 'lt50'},
+          MEX: {fillKey: 'lt50'},
+          FRA: {fillKey: 'lt50' },
+          AUT: {fillKey: 'lt50' },
+          BEL: {fillKey: 'lt50' }, 
+          CHN: {fillKey: 'lt50' },
+          HRV: {fillKey: 'lt50' },
+          CZE: {fillKey: 'lt50' },
+          DNK: {fillKey: 'lt50'},
+          EGY: {fillKey: 'lt50'},
+          DEU: {fillKey: 'lt50' },
+          GRC: {fillKey: 'lt50' },
+          HKG: {fillKey: 'lt50' }, 
+          HUN: {fillKey: 'lt50' },
+          IND: {fillKey: 'lt50' },
+          IMN: {fillKey: 'lt50' },
+          ITA: {fillKey: 'lt50'},
+          KEN: {fillKey: 'lt50'},
+          MAR: {fillKey: 'lt50' },
+          NPL: {fillKey: 'lt50' },
+          NLD: {fillKey: 'lt50' }, 
+          PRY: {fillKey: 'lt50' },
+          POL: {fillKey: 'lt50' },
+          PRT: {fillKey: 'lt50' },
+          SVN: {fillKey: 'lt50'},
+          ESP: {fillKey: 'lt50'},
+          LKA: {fillKey: 'lt50' },
+          SWE: {fillKey: 'lt50' },
+          CHE: {fillKey: 'lt50' },
+          THA: {fillKey: 'lt50' },
+          TUN: {fillKey: 'lt50'},
+          TUR: {fillKey: 'lt50'},
+          ARE: {fillKey: 'lt50' },
+          GBR: {fillKey: 'lt50' },
+          URY: {fillKey: 'lt50' }, 
+          HUN: {fillKey: 'lt50' },
+          IND: {fillKey: 'lt50' },
+          IMN: {fillKey: 'lt50' },
+          ITA: {fillKey: 'lt50'},
+          KEN: {fillKey: 'lt50'},
+          MAR: {fillKey: 'lt50' },
+          NPL: {fillKey: 'lt50' },
+          NLD: {fillKey: 'lt50' }, 
+          PRY: {fillKey: 'lt50' },
+          POL: {fillKey: 'lt50' },
+          PRT: {fillKey: 'lt50' },
+          SVN: {fillKey: 'lt50'},
+          ESP: {fillKey: 'lt50'},
+          LKA: {fillKey: 'lt50' },
+          SWE: {fillKey: 'lt50' },
+          IRL: {fillKey: 'lt50' },
+          GTM: {fillKey: 'lt50' },
+          LVA: {fillKey: 'lt50' },
+
+          AUS: {fillKey: 'rt50' },
+          NZL: {fillKey: 'rt50'},
+          COL: {fillKey: 'rt50'},
+          ECU: {fillKey: 'rt50' },
+          ISR: {fillKey: 'rt50' },
+          MDG: {fillKey: 'rt50' },
+          AGO: {fillKey: 'rt50' },
+          NOR: {fillKey: 'rt50' }
+        }
+      })
+
+     </script>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="12u">
+
+                        <!-- Contact -->
+                        <section class="contact">
+                            <ul class="icons">
+                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                            </ul>
+                        </section>
+
+                        <!-- Copyright -->
+                        <div class="copyright">
+                            <ul class="menu">
+                                <li>Site Template: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.onvisible.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
