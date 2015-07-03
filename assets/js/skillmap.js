@@ -50,7 +50,7 @@ nytg.budget_array_data = [{
     "id": 489,
     "budget_2012": 450335000,
     "change": 0.0481974530072057,
-    "budget_2013": 472040000,
+    "budget_2013": 780040000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -104,7 +104,7 @@ nytg.budget_array_data = [{
     "id": 485,
     "budget_2012": -440000,
     "change": 0.0454545454545455,
-    "budget_2013": -460000,
+    "budget_2013": 460000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -302,7 +302,7 @@ nytg.budget_array_data = [{
     "id": 447,
     "budget_2012": 820431000,
     "change": 0.0671537277357876,
-    "budget_2013": 375526000,
+    "budget_2013": 150000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -320,7 +320,7 @@ nytg.budget_array_data = [{
     "id": 259,
     "budget_2012": 917000,
     "change": 0.21701199563795,
-    "budget_2013": 1116000,
+    "budget_2013": 100000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -338,7 +338,7 @@ nytg.budget_array_data = [{
     "id": 446,
     "budget_2012": 1798000,
     "change": -1.0027808676307,
-    "budget_2013": -5000,
+    "budget_2013": 20000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -356,7 +356,7 @@ nytg.budget_array_data = [{
     "id": 430,
     "budget_2012": 1487000,
     "change": -1.1714862138534,
-    "budget_2013": -255000,
+    "budget_2013": 70000000,
     "department": "Grants",
     "discretion": "Creative"
 }, {
@@ -374,7 +374,7 @@ nytg.budget_array_data = [{
     "id": 237,
     "budget_2012": 330000,
     "change": 0.00909090909090909,
-    "budget_2013": 333000,
+    "budget_2013": 50000000,
     "department": "Grants",
     "discretion": "Creative"
 }, {
@@ -392,7 +392,7 @@ nytg.budget_array_data = [{
     "id": 17,
     "budget_2012": 83000,
     "change": -0.180722891566265,
-    "budget_2013": 68000,
+    "budget_2013": 80000000,
     "department": "Art",
     "discretion": "Creative"
 }, {
@@ -410,7 +410,7 @@ nytg.budget_array_data = [{
     "id": 257,
     "budget_2012": 24000000,
     "change": 2.0,
-    "budget_2013": 24000000,
+    "budget_2013": 180000000,
     "department": "Art",
     "discretion": "Creative"
 }, {
@@ -428,7 +428,7 @@ nytg.budget_array_data = [{
     "id": 495,
     "budget_2012": -7029000,
     "change": 0.0570493669085218,
-    "budget_2013": -7430000,
+    "budget_2013": 50000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -446,7 +446,7 @@ nytg.budget_array_data = [{
     "id": 438,
     "budget_2012": 9471000,
     "change": 0.0270298806884173,
-    "budget_2013": 9727000,
+    "budget_2013": 40000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -464,7 +464,7 @@ nytg.budget_array_data = [{
     "id": 395,
     "budget_2012": 52685000,
     "change": 0.0393660434658821,
-    "budget_2013": 54759000,
+    "budget_2013": 30000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -482,7 +482,7 @@ nytg.budget_array_data = [{
     "id": 300,
     "budget_2012": -13000,
     "change": 0.153846153846154,
-    "budget_2013": -15000,
+    "budget_2013": 100000000,
     "department": "Employment",
     "discretion": "Technical"
 }, {
@@ -536,7 +536,7 @@ nytg.budget_array_data = [{
     "id": 260,
     "budget_2012": 988000,
     "change": 0.297165991902834,
-    "budget_2013": 108470000,
+    "budget_2013": 100000000,
     "department": "Classes",
     "discretion": "Technical"
 }, {
@@ -554,7 +554,7 @@ nytg.budget_array_data = [{
     "id": 372,
     "budget_2012": -77000,
     "change": 0.012987012987013,
-    "budget_2013": -78000,
+    "budget_2013": 10000000,
     "department": "Travel",
     "discretion": "Creative"
 }, {
@@ -572,7 +572,7 @@ nytg.budget_array_data = [{
     "id": 358,
     "budget_2012": 224000,
     "change": 0.0714285714285714,
-    "budget_2013": 240000,
+    "budget_2013": 88000000,
     "department": "Classes",
     "discretion": "Technical"
 }, {
@@ -590,7 +590,7 @@ nytg.budget_array_data = [{
     "id": 358,
     "budget_2012": 224000,
     "change": 0.114285714285714,
-    "budget_2013": 24000000,
+    "budget_2013": 167000000,
     "department": "Writing",
     "discretion": "Technical"
 }, {
@@ -608,7 +608,7 @@ nytg.budget_array_data = [{
     "id": 303,
     "budget_2012": 340000,
     "change": 0.217647058823529,
-    "budget_2013": 4480,
+    "budget_2013": 1800000,
     "department": "Art",
     "discretion": "Creative"
 }, {
@@ -626,7 +626,7 @@ nytg.budget_array_data = [{
     "id": 303,
     "budget_2012": 340000,
     "change": 0.117647058823529,
-    "budget_2013": 32180,
+    "budget_2013": 3200000,
     "department": "Publications",
     "discretion": "Creative"
 }, {
@@ -716,7 +716,7 @@ nytg.budget_array_data = [{
     "id": 41,
     "budget_2012": 205000,
     "change": 0.502439024390244,
-    "budget_2013": 30800000,
+    "budget_2013": 308000000,
     "department": "Computer Science",
     "discretion": "Technical"
 }, {
@@ -842,7 +842,7 @@ nytg.budget_array_data = [{
     "id": 6,
     "budget_2012": 6000,
     "change": 5.0,
-    "budget_2013": 60000000,
+    "budget_2013": 600000000,
     "department": "Languages",
     "discretion": "Creative"
 }, {
@@ -1508,7 +1508,7 @@ nytg.budget_array_data = [{
     "id": 207,
     "budget_2012": 2053000,
     "change": -4.14125669751583,
-    "budget_2013": -6449000,
+    "budget_2013": 6449000,
     "department": "Travel",
     "discretion": "Creative"
 }, {
@@ -1580,7 +1580,7 @@ nytg.budget_array_data = [{
     "id": 361,
     "budget_2012": -3000,
     "change": -0.0,
-    "budget_2013": -300000,
+    "budget_2013": 300000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -1634,7 +1634,7 @@ nytg.budget_array_data = [{
     "id": 51,
     "budget_2012": 6270000,
     "change": 0.0279106858054226,
-    "budget_2013": 6445000,
+    "budget_2013": 12000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -1652,7 +1652,7 @@ nytg.budget_array_data = [{
     "id": 388,
     "budget_2012": -548000,
     "change": 0.0766423357664234,
-    "budget_2013": -590000,
+    "budget_2013": 325000000,
     "department": "Grants",
     "discretion": "Creative"
 }, {
@@ -1688,7 +1688,7 @@ nytg.budget_array_data = [{
     "id": 103,
     "budget_2012": 27000,
     "change": 0.037037037037037,
-    "budget_2013": 28000,
+    "budget_2013": 8000000,
     "department": "Languages",
     "discretion": "Technical"
 }, {
@@ -1706,7 +1706,7 @@ nytg.budget_array_data = [{
     "id": 389,
     "budget_2012": 243000,
     "change": 0.181069958847737,
-    "budget_2013": 287000,
+    "budget_2013": 18000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -1724,7 +1724,7 @@ nytg.budget_array_data = [{
     "id": 5,
     "budget_2012": 83000,
     "change": 0.0240963855421687,
-    "budget_2013": 85000,
+    "budget_2013": 85000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -1742,7 +1742,7 @@ nytg.budget_array_data = [{
     "id": 283,
     "budget_2012": 17000,
     "change": 0.0,
-    "budget_2013": 17000,
+    "budget_2013": 17000000,
     "department": "Education",
     "discretion": "Technical"
 }, {
@@ -1760,7 +1760,7 @@ nytg.budget_array_data = [{
     "id": 459,
     "budget_2012": 3000,
     "change": 0.0,
-    "budget_2013": 3000,
+    "budget_2013": 55000000,
     "department": "Education",
     "discretion": "Technical"
 }, {
@@ -1778,7 +1778,7 @@ nytg.budget_array_data = [{
     "id": 268,
     "budget_2012": 50000,
     "change": 0.16,
-    "budget_2013": 58000,
+    "budget_2013": 58000000,
     "department": "Education",
     "discretion": "Technical"
 }, {
@@ -1797,7 +1797,7 @@ nytg.budget_array_data = [{
     "budget_2012": 898000,
     "change": 0.0,
     "budget_2013": 898000,
-    "department": "Volunteering",
+    "department": "37000000",
     "discretion": "Creative"
 }, {
     "name": "Juggling - Balls",
@@ -1814,7 +1814,7 @@ nytg.budget_array_data = [{
     "id": 292,
     "budget_2012": -1157000,
     "change": -0.696629213483146,
-    "budget_2013": -351000,
+    "budget_2013": 30000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -1832,7 +1832,7 @@ nytg.budget_array_data = [{
     "id": 426,
     "budget_2012": 144000,
     "change": -0.361111111111111,
-    "budget_2013": 92000,
+    "budget_2013": 34000000,
     "department": "Volunteering",
     "discretion": "Creative"
 }, {
@@ -1850,7 +1850,7 @@ nytg.budget_array_data = [{
     "id": 7,
     "budget_2012": 30000,
     "change": -0.2,
-    "budget_2013": 24000,
+    "budget_2013": 24000000,
     "department": "Volunteering",
     "discretion": "Creative"
 }, {
@@ -1868,7 +1868,7 @@ nytg.budget_array_data = [{
     "id": 383,
     "budget_2012": 17000,
     "change": -1.0,
-    "budget_2013": 10000,
+    "budget_2013": 61000000,
     "department": "Volunteering",
     "discretion": "Creative"
 }, {
@@ -1886,7 +1886,7 @@ nytg.budget_array_data = [{
     "id": 233,
     "budget_2012": -198000,
     "change": -0.0303030303030303,
-    "budget_2013": -192000,
+    "budget_2013": 72000000,
     "department": "Volunteering",
     "discretion": "Creative"
 }, {
@@ -1904,7 +1904,7 @@ nytg.budget_array_data = [{
     "id": 396,
     "budget_2012": 7706000,
     "change": 0.850116792110044,
-    "budget_2013": 14257000,
+    "budget_2013": 21000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -1940,7 +1940,7 @@ nytg.budget_array_data = [{
     "id": 470,
     "budget_2012": -1000,
     "change": -0.0,
-    "budget_2013": -1000,
+    "budget_2013": 10000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -1958,7 +1958,7 @@ nytg.budget_array_data = [{
     "id": 138,
     "budget_2012": 23000,
     "change": -0.217391304347826,
-    "budget_2013": 18000,
+    "budget_2013": 18000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -1976,7 +1976,7 @@ nytg.budget_array_data = [{
     "id": 22,
     "budget_2012": 2532000,
     "change": 0.123696682464455,
-    "budget_2013": 25260000,
+    "budget_2013": 252600000,
     "department": "Languages",
     "discretion": "Creative"
 }, {
@@ -1994,7 +1994,7 @@ nytg.budget_array_data = [{
     "id": 136,
     "budget_2012": 63000,
     "change": -0.0476190476190476,
-    "budget_2013": 60000,
+    "budget_2013": 60000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -2012,7 +2012,7 @@ nytg.budget_array_data = [{
     "id": 276,
     "budget_2012": 1476000,
     "change": -0.0873983739837398,
-    "budget_2013": 1347000,
+    "budget_2013": 130000000,
     "department": "Teaching",
     "discretion": "Creative"
 }, {
@@ -2030,7 +2030,7 @@ nytg.budget_array_data = [{
     "id": 277,
     "budget_2012": 1068000,
     "change": 0.1318352059925094,
-    "budget_2013": 110200000,
+    "budget_2013": 110000000,
     "department": "Art",
     "discretion": "Creative"
 }, {
@@ -2048,7 +2048,7 @@ nytg.budget_array_data = [{
     "id": 226,
     "budget_2012": 152000,
     "change": -0.0394736842105263,
-    "budget_2013": 146000,
+    "budget_2013": 140000000,
     "department": "Languages",
     "discretion": "Technical"
 }, {
@@ -2066,7 +2066,7 @@ nytg.budget_array_data = [{
     "id": 74,
     "budget_2012": 262000,
     "change": -0.152671755725191,
-    "budget_2013": 222000,
+    "budget_2013": 222000000,
     "department": "Sports",
     "discretion": "Technical"
 }, {
@@ -2084,7 +2084,7 @@ nytg.budget_array_data = [{
     "id": 305,
     "budget_2012": 179000,
     "change": 0.167597765363128,
-    "budget_2013": 209000,
+    "budget_2013": 80000000,
     "department": "Teaching",
     "discretion": "Creative"
 }, {
@@ -2102,7 +2102,7 @@ nytg.budget_array_data = [{
     "id": 304,
     "budget_2012": 213000,
     "change": -0.492957746478873,
-    "budget_2013": 108000,
+    "budget_2013": 108000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -2120,7 +2120,7 @@ nytg.budget_array_data = [{
     "id": 421,
     "budget_2012": 428000,
     "change": 0.0350467289719626,
-    "budget_2013": 443000,
+    "budget_2013": 44000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -2138,7 +2138,7 @@ nytg.budget_array_data = [{
     "id": 381,
     "budget_2012": 520000,
     "change": -0.00961538461538462,
-    "budget_2013": 515000,
+    "budget_2013": 51000000,
     "department": "Employment",
     "discretion": "Technical"
 }, {
@@ -2174,7 +2174,7 @@ nytg.budget_array_data = [{
     "id": 218,
     "budget_2012": 150000,
     "change": -0.06,
-    "budget_2013": 141000,
+    "budget_2013": 141000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -2192,7 +2192,7 @@ nytg.budget_array_data = [{
     "id": 135,
     "budget_2012": 232000,
     "change": 0.0,
-    "budget_2013": 232000,
+    "budget_2013": 23000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -2210,7 +2210,7 @@ nytg.budget_array_data = [{
     "id": 380,
     "budget_2012": -1000,
     "change": -0.0,
-    "budget_2013": -1000,
+    "budget_2013": 18000000,
     "department": "Programming Languages",
     "discretion": "Technical"
 }, {
@@ -2228,7 +2228,7 @@ nytg.budget_array_data = [{
     "id": 93,
     "budget_2012": 72000,
     "change": -0.0555555555555556,
-    "budget_2013": 68000,
+    "budget_2013": 30000000,
     "department": "Circus",
     "discretion": "Creative"
 }, {
@@ -2246,7 +2246,7 @@ nytg.budget_array_data = [{
     "id": 130,
     "budget_2012": -3440000,
     "change": 1.13866279069767,
-    "budget_2013": -7357000,
+    "budget_2013": 7357000,
     "department": "Art",
     "discretion": "Creative"
 }, {
@@ -2768,7 +2768,7 @@ nytg.budget_array_data = [{
     "id": 309,
     "budget_2012": 1092383000,
     "change": 0.0835174110179305,
-    "budget_2013": 695526000,
+    "budget_2013": 200526000,
     "department": "Programming languages",
     "discretion": "Technical"
 }, {
