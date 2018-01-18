@@ -9,6 +9,9 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src='chart.min.js'></script>
+    <script src='chart.stackedBar.js'></script>
+
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
@@ -40,7 +43,7 @@
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="computers.html">Computer Science</a></li>
+                    <li><a href="computers.html">Tech</a></li>
                     <li><a href="writing.html">Writing</a></li>
                     <li><a href="art.html">Art</a></li>
                     <li><a href="new_map.html">Map</a></li>
@@ -58,7 +61,7 @@
                     <header>
                         <h2>Places I've been.</h2>
                     </header>
-                    <p style="text-align:center;"> Places I've been are rendered in blue (cyan, really). Places that I want to go to so badly that I've basically been are rendered in grean (teal, really). <br>This graph was made using d3.js and topoJSON.</p>
+                    <p style="text-align:center;"> Places I've been are rendered in blue. I just reached my 59th country (Malaysia). <br>This graph was made using d3.js and topoJSON.</p>
 
 
                     <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -76,14 +79,26 @@
                             projection: 'mercator',
                             height: 800,
                             fills: {
-                                defaultFill: 'rgba(255,185,60,0.9)',
-                                lt50: 'rgba(64,240,255,0.9)',
+                                defaultFill: 'rgba(240,233,207,0.9)',
+                                lt50: 'rgba(202,225,209,0.9)',
                                 gt50: 'rgba(255,143,0,0.9)',
                                 rt50: 'rgba(20,204,168,0.9)'
                             },
 
                             data: {
                                 USA: {
+                                    fillKey: 'lt50'
+                                },
+                                EST: {
+                                    fillKey: 'lt50'
+                                },
+                                LIE: {
+                                    fillKey: 'lt50'
+                                },
+                                KOR: {
+                                    fillKey: 'lt50'
+                                },
+                                FIN: {
                                     fillKey: 'lt50'
                                 },
                                 CAN: {
@@ -206,12 +221,6 @@
                                 IMN: {
                                     fillKey: 'lt50'
                                 },
-                                ITA: {
-                                    fillKey: 'lt50'
-                                },
-                                KEN: {
-                                    fillKey: 'lt50'
-                                },
                                 MAR: {
                                     fillKey: 'lt50'
                                 },
@@ -251,7 +260,6 @@
                                 LVA: {
                                     fillKey: 'lt50'
                                 },
-
                                 AUS: {
                                     fillKey: 'lt50'
                                 },
@@ -276,38 +284,17 @@
                                 CHN: {
                                     fillKey: 'lt50'
                                 },
-                                COL: {
-                                    fillKey: 'rt50'
+                                MYS: {
+                                    fillKey: 'lt50'
                                 },
-                                ECU: {
-                                    fillKey: 'rt50'
+                                VNM: {
+                                    fillKey: 'lt50'
                                 },
-                                ISR: {
-                                    fillKey: 'rt50'
+                                KHM: {
+                                    fillKey: 'lt50'
                                 },
-                                RUS: {
-                                    fillKey: 'rt50'
-                                },
-                                MDG: {
-                                    fillKey: 'rt50'
-                                },
-                                AGO: {
-                                    fillKey: 'rt50'
-                                },
-                                NOR: {
-                                    fillKey: 'rt50'
-                                },
-                                AZE: {
-                                    fillKey: 'rt50'
-                                },
-                                OMN: {
-                                    fillKey: 'rt50'
-                                },
-                                VCT: {
-                                    fillKey: 'rt50'
-                                },
-                                ALB: {
-                                    fillKey: 'rt50'
+                                VUT: {
+                                    fillKey: 'lt50'
                                 }
                             }
                         })
@@ -316,7 +303,7 @@
       <br><br><br><br>
         <section>
             <header><h2 style="text-align:center;">Languages</h2></header>
-            <p style="text-align:center;"> These are some languages that I speak. I mostly wanted to try making an aster plot. <br>Also made with d3.js and based on a Mike Bostock graphic.</p><br><br>
+            <p style="text-align:center;"> These are some languages that I speak (I just wanted to make an aster plot). <br>Made with d3.js and based on a Mike Bostock graphic.</p><br><br>
             <div style="text-align:center;" id="aster_plot">
                 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js">
                 </script>
@@ -343,7 +330,7 @@
                             </a></li>
 
                             <li>
-                                <a href="https://www.linkedin.com/pub/clementine-jacoby/83/784/505" class="icon fa-linkedin">
+                                <a href="https://www.linkedin.com/in/clementine-jacoby-50578483" class="icon fa-linkedin">
                                 <span class="label">Linkedin</span>
                             </a></li>
                         </ul>
